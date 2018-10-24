@@ -59,6 +59,7 @@ public class Main {
     return "index";
   }
 
+  /***
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
@@ -98,6 +99,6 @@ public class Main {
       model.put("science", "E=mc^2: 12 GeV = " + m.toString());
       return "hello";
   }
-
+  ***/
 
 }

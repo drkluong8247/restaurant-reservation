@@ -80,6 +80,7 @@ public class Main {
       return "error";
     }
   }
+  ***/
 
   @Bean
   public DataSource dataSource() throws SQLException {
@@ -92,6 +93,7 @@ public class Main {
     }
   }
   
+  /***
   @RequestMapping("/hello")
   String hello(Map<String, Object> model) {
       RelativisticModel.select();
